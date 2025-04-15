@@ -1,0 +1,219 @@
+* {
+
+    padding: 0;
+    border: none;
+
+}
+
+body {
+    background: linear-gradient(to bottom, #05081b, #193f8a);
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: #15334e;
+    border-radius: 20px;
+    border: solid 0.5px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo{
+    height: 100px;
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+.cabe{
+    display: flex;
+    align-items: center;
+}
+
+.home{
+    margin-left: 20px;
+}
+
+.cabecalho{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+select {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background: transparent;
+    background-color: #15334e;
+    color: rgb(206, 206, 206);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li{
+    border: none;
+    font-size: 20px;
+    overflow: hidden;
+    margin-right: 3ch;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(206, 206, 206);
+    cursor: pointer;
+    transform: translateY(0);
+    transition: transform 0.6s ease-out, background-color 0.3s ease;
+}
+
+li:hover{
+    transition: 0.4s;
+    transform: translateY(-2px);
+}
+
+.telaMoeda{
+
+    margin-top: 80px;
+    width: 100%;
+    height: 700px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.tela1{
+    background: linear-gradient(to bottom, #424870, #396ace);
+    width: 95%;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center; 
+}
+
+.moedas{
+    height: 200px;
+    padding: 0px 85px;
+}
+
+.cardIP{
+    background: linear-gradient(to bottom, #05081b, #193f8a);
+    text-align: center;
+    border: solid 1.5px;
+    border-radius: 20px;
+    margin: 20px;
+    align-items: center;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s ease-out, background-color 0.3s ease;
+}
+
+.cardIP:hover{
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+
+.nomeMoeda{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+    padding: 0 0 80px 0;
+    color: rgb(206, 206, 206);
+}
+
+button{
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(206, 206, 206);
+    font-weight: bold;
+    background-color: #060d3d;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 20px;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease-out, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1f4899;
+    transition: 0.4s;
+    transform: translateY(-5px);
+    color: rgb(206, 206, 206);  
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #193f8a, #05081b);
+    border: solid 2px #05081b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer{
+    margin-top: 130px;
+}
+
+.li{
+    font-size: 30px;
+}
+
+.cabeFooter{
+    margin-left: 360px;
+    text-align: center;
+}
+
+.cabecalhoFooter{
+    text-align: center;
+}
+
+.fundoDois{
+    justify-content: end ;
+    text-align: end;
+    align-items: end;
+}
+
+.fundo2{
+    height: 500px;
+    margin-left: 368px;
+    border-radius: 20px;
+}
+
+.moedaFooter{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background: transparent;
+    background-color: #0a253d;
+    color: rgb(206, 206, 206);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.sobre{
+    margin-top: 20px;
+}
+
+.gif{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 300px;
+}
+
+.gif2{
+    height: 900px;
+    width: 100%;
+    margin-bottom: 500px;
+}
